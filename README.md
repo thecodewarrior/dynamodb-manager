@@ -3,7 +3,7 @@
 This GUI tool to manage your local dynamodb.
 If you have a better idea, welcome to issue.
 
-![image](https://github.com/YoyaTeam/images/blob/master/dynamodb-manager/dynamodb-manager.gif)
+![image](readme/dynamodb-manager.gif)
 
 ## features
 
@@ -20,13 +20,17 @@ If you have a better idea, welcome to issue.
   * [x] Delete Item
   * [x] import/export Items
 * Search (Table or Index)
-  * [x] Scan Table 
-  * [x] Query Table 
-  * [x] Filter Condition 
+  * [x] Scan Table
+  * [x] Query Table
+  * [x] Filter Condition
 
 ## how to use
 
-Here is a sample website that can be used http://dynamodb.yoyadoc.com, 
+~~Here is a sample website that can be used http://dynamodb.yoyadoc.com~~
+
+*This fork was created after the original yoyadoc.com hosting expired. The site can now be found on Netlify at
+https://dynamodb-manager.netlify.app*
+
 You can also use docker to deploy the local version. https://hub.docker.com/r/taydy/dynamodb-manager/.
 ``` bash
 docker pull taydy/dynamodb-manager
@@ -36,19 +40,19 @@ or you can build the project, and put the dist directory in amazon s3 and aliyun
 
 ## show me
 ### setting
-![image](http://image.yoyadoc.com/github/setting.png)
+![image](readme/setting.png)
 
 ### config
-![image](http://image.yoyadoc.com/github/config.png)
+![image](readme/config.png)
 
 ### table info
-![image](http://image.yoyadoc.com/github/tableinfo.png)
+![image](readme/tableinfo.png)
 
 ### item search
-![image](http://image.yoyadoc.com/github/item_search.png)
+![image](readme/item_search.png)
 
 ### table index
-![image](http://image.yoyadoc.com/github/index.png)
+![image](readme/index.png)
 
 ## Build Setup
 
@@ -69,4 +73,4 @@ docker-compose up -d
 ## Issue
 -  **applying the configuration but get error "Configuration is not in effect!"**
 
-    please see [Cors](https://github.com/YoyaTeam/dynamodb-manager/issues/9) 
+    please see [Cors](https://github.com/YoyaTeam/dynamodb-manager/issues/9)
